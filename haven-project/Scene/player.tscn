@@ -1,31 +1,20 @@
 [gd_scene format=3 uid="uid://83d3pyu0musn"]
 
 [ext_resource type="Script" uid="uid://c6bphvkukt3dr" path="res://Scripts/player.gd" id="1_y8w33"]
-[ext_resource type="Texture2D" uid="uid://h4gyqhmnl6on" path="res://icon.svg" id="2_xa75v"]
+[ext_resource type="Texture2D" uid="uid://dhqqu2d2xtyhe" path="res://Assets/images/pixel pogo stick.png" id="2_y8w33"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_58ae2"]
-atlas = ExtResource("2_xa75v")
-region = Rect2(0, 0, 128, 128)
-
-[sub_resource type="SpriteFrames" id="SpriteFrames_ivevv"]
-animations = [{
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_58ae2")
-}],
-"loop": true,
-"name": &"default",
-"speed": 5.0
-}]
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_y8w33"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y8w33"]
+size = Vector2(12.333334, 19.833334)
 
 [node name="Player" type="CharacterBody2D" unique_id=555610254]
 script = ExtResource("1_y8w33")
 
-[node name="AnimatedSprite" type="AnimatedSprite2D" parent="." unique_id=699521438]
-sprite_frames = SubResource("SpriteFrames_ivevv")
-
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1753552927]
+position = Vector2(1.9999981, -0.4999981)
 scale = Vector2(6, 6)
-shape = SubResource("CircleShape2D_y8w33")
+shape = SubResource("RectangleShape2D_y8w33")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=44021839]
+position = Vector2(10, 3)
+scale = Vector2(0.32000017, 0.32000017)
+texture = ExtResource("2_y8w33")
