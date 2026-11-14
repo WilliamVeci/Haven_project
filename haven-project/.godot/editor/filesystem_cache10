@@ -1,8 +1,7 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1794684952
+::res://::1794685945
 icon.svg::CompressedTexture2D::551596873094575821::1794191347::1794191351::1::::<><><>0<>0<>23a74078c86356befb25dc2f08c792f1<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Assets/::1794684952
-::res://Assets/images/::1794684947
+::res://Assets/::1794684956
 ::res://Assets/Sprites/::1794684952
 flag animation.png::CompressedTexture2D::2916155954645463492::1794682370::1794682370::1::::<><><>0<>0<>f2093e3c9168f41a611e18665e19ddcc<>res://.godot/imported/flag animation.png-290e89adefa8aac5f3a858a16d136a0f.ctex::
 pixel pogo stick.png::CompressedTexture2D::7684622612395981690::1794679387::1794684952::1::::<><><>0<>0<>0bd0448d861e7fa4527678d3940616c0<>res://.godot/imported/pixel pogo stick.png-defc76c211f8773751c6aa785ce982a2.ctex::
@@ -13,11 +12,11 @@ tilemap-characters.png::CompressedTexture2D::3624915000555475160::1794678892::17
 tilemap-characters_packed.png::CompressedTexture2D::8941858900788360170::1794678892::1794678892::1::::<><><>0<>0<>5565ca19c90178e6c562c7fc9c211e7e<>res://.godot/imported/tilemap-characters_packed.png-b03cc67ef8b9cd8c25aef154ceb0da64.ctex::
 tilemap.png::CompressedTexture2D::1128923060441616729::1794678892::1794678892::1::::<><><>0<>0<>d084b8c8854f7b12473b01d83003d27d<>res://.godot/imported/tilemap.png-e11690f56d93b402633ddfc665161690.ctex::
 tilemap_packed.png::CompressedTexture2D::1554290131945555197::1794678892::1794678892::1::::<><><>0<>0<>98f4ceed70f432348325fdafbfd60029<>res://.godot/imported/tilemap_packed.png-03eaaee116064d2a7627e1d08b7efffb.ctex::
-::res://Scene/::1794684952
+::res://Scene/::1794685926
 flag.tscn::PackedScene::460241071471796198::1794682915::0::1::::<><><>0<>0<><>::uid://i0xym6p1xb7n::::res://Scripts/flag.gd<>uid://bhsuwr4tyfasy::::res://Assets/Sprites/flag animation.png
-game.tscn::PackedScene::683708414020055882::1794684664::0::1::::<><><>0<>0<><>::uid://83d3pyu0musn::::res://Scene/player.tscn<>uid://we56wxj888d2::::res://Assets/Tilemap/tilemap_packed.png<>uid://biefdiratknln::::res://Scene/spike_enemy.tscn<>uid://gs7drkmwq415::::res://Scene/flag.tscn<>uid://cdqfojwshjvtu::::res://Scene/kill_zone.tscn
+game.tscn::PackedScene::683708414020055882::1794685877::0::1::::<><><>0<>0<><>::uid://83d3pyu0musn::::res://Scene/player.tscn<>uid://we56wxj888d2::::res://Assets/Tilemap/tilemap_packed.png<>uid://biefdiratknln::::res://Scene/spike_enemy.tscn<>uid://gs7drkmwq415::::res://Scene/flag.tscn<>uid://cdqfojwshjvtu::::res://Scene/kill_zone.tscn
 kill_zone.tscn::PackedScene::5016767035967175654::1794683453::0::1::::<><><>0<>0<><>::uid://bxvhj7vjrai2t::::res://Scripts/kill_zone.gd
-player.tscn::PackedScene::2374267396244549297::1794684952::0::1::::<><><>0<>0<><>::uid://c6bphvkukt3dr::::res://Scripts/player.gd<>uid://dhqqu2d2xtyhe::::res://Assets/Sprites/pixel pogo stick.png
+player.tscn::PackedScene::2374267396244549297::1794685926::0::1::::<><><>0<>0<><>::uid://c6bphvkukt3dr::::res://Scripts/player.gd<>uid://dhqqu2d2xtyhe::::res://Assets/Sprites/pixel pogo stick.png
 spike_enemy.tscn::PackedScene::2956498332633421303::1794683885::0::1::::<><><>0<>0<><>::uid://brv625pceo8qe::::res://Assets/Tilemap/tilemap-characters.png<>uid://cdqfojwshjvtu::::res://Scene/kill_zone.tscn
 ::res://Scripts/::1794684448
 flag.gd::GDScript::614560221729420617::1794683799::0::1::::<>Area2D<><>0<>0<><>::
