@@ -1,3 +1,6 @@
 res://Scene/player.tscn
 res://Scene/game.tscn
 res://Scripts/player.gd
+res://Scripts/flag.gd
+res://Scene/flag.tscn
+res://Scene/kill_zone.tscn

@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://cdqfojwshjvtu"]
+
+[node name="KillZone" type="Area2D" unique_id=866270772]
+position = Vector2(-5, 0)
