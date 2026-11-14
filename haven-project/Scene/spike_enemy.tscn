@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://biefdiratknln"]
 
 [ext_resource type="Texture2D" uid="uid://brv625pceo8qe" path="res://Assets/Tilemap/tilemap-characters.png" id="1_2pdil"]
+[ext_resource type="PackedScene" uid="uid://cdqfojwshjvtu" path="res://Scene/kill_zone.tscn" id="2_qf1c0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qf1c0"]
 atlas = ExtResource("1_2pdil")
@@ -27,12 +28,14 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_ym2ps"]
 radius = 9.0
 
-[node name="Spike Enemy" type="CharacterBody2D" unique_id=701869328]
+[node name="Spike Enemy" type="Node2D" unique_id=457987526]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1115981214]
 sprite_frames = SubResource("SpriteFrames_6ut5k")
-frame_progress = 0.026434805
+frame_progress = 0.34686086
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1860215051]
-position = Vector2(-1, 4)
+[node name="KillZone" parent="." unique_id=866270772 instance=ExtResource("2_qf1c0")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KillZone" unique_id=1860215051]
+position = Vector2(4, 4)
 shape = SubResource("CircleShape2D_ym2ps")

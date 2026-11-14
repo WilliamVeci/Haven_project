@@ -4,3 +4,5 @@ res://Scripts/player.gd
 res://Scripts/flag.gd
 res://Scene/flag.tscn
 res://Scene/kill_zone.tscn
+res://Scripts/kill_zone.gd
+res://Scene/spike_enemy.tscn
