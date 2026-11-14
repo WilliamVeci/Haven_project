@@ -1,8 +1,10 @@
 78098b89c88a74ebe8c20117b8754620
 ::res://::1794678460
 icon.svg::CompressedTexture2D::551596873094575821::1794677620::1794678386::1::::<><><>0<>0<>23a74078c86356befb25dc2f08c792f1<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Assets/::1794678833
-::res://Assets/Tilemap/::1794678833
+::res://Assets/::1794679331
+::res://Assets/images/::1794679343
+pixel pogo stick.png::CompressedTexture2D::7684622612395981690::1794679343::1794679344::1::::<><><>0<>0<>0d0f786c25ad756361897395c8a799b5<>res://.godot/imported/pixel pogo stick.png-2da037939f279ed56ac54c4cde9000d1.ctex::
+::res://Assets/Tilemap/::1794678839
 tilemap-backgrounds.png::CompressedTexture2D::1395383058436797539::1794678833::1794678833::1::::<><><>0<>0<>f418303e0c10c12be295f8e01a506c3c<>res://.godot/imported/tilemap-backgrounds.png-ae6d9e3708150e76a768b87ee1713ad1.ctex::
 tilemap-backgrounds_packed.png::CompressedTexture2D::865531547168415252::1794678833::1794678833::1::::<><><>0<>0<>566082f9c2094b5511c4aa0e5e0982c9<>res://.godot/imported/tilemap-backgrounds_packed.png-6464aa8b4edd5293fe9cbf3f4918a7be.ctex::
 tilemap-characters.png::CompressedTexture2D::3624915000555475160::1794678833::1794678833::1::::<><><>0<>0<>11d09879f1392d7d8eb921d5795a5057<>res://.godot/imported/tilemap-characters.png-49239470046ad9bf923a0b62bd1ad031.ctex::
