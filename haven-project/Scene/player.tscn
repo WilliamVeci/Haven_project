@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://83d3pyu0musn"]
 
 [ext_resource type="Script" uid="uid://c6bphvkukt3dr" path="res://Scripts/player.gd" id="1_y8w33"]
-[ext_resource type="Texture2D" uid="uid://dhqqu2d2xtyhe" path="res://Assets/images/pixel pogo stick.png" id="2_y8w33"]
+[ext_resource type="Texture2D" uid="uid://dhqqu2d2xtyhe" path="res://Assets/Sprites/pixel pogo stick.png" id="2_y8w33"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_y8w33"]
 size = Vector2(12.333334, 19.833334)
